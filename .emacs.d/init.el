@@ -22,3 +22,5 @@
 ;; -- Python Mode configuration --
 ;; ---------------------------
 (load "py-config.el")
+(load "sh-config.el")
+
