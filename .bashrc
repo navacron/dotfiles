@@ -24,3 +24,7 @@ source ~/dotfiles/.bash_aliases
     export GREP_OPTIONS='--color=auto'
     export GREP_COLOR='1;31' # green for matches
 
+# 1.5) Git prompt if installed
+    if [ -f ~/git-prompt/git-prompt.sh ]; then
+	. ~/git-prompt/git-prompt.sh	
+    fi
