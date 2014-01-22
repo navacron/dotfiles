@@ -1,0 +1,30 @@
+[user]
+	name = Naveed Ahmad
+	email = naveed.ahmad@nytimes.com
+[alias]
+co = checkout
+ci = commit
+d = diff -w
+dod = diff -w origin/develop
+f = fetch
+graph = log --graph --date-order -C -M --pretty=format:\"<%h> %ad [%an] %Cgreen%d%Creset %s\" --all --date=short
+l = log --stat --decorate=short
+ll = log --numstat --decorate=short
+m = merge
+mod = merge origin/develop
+rb = rebase
+serve-core = !git daemon --reuseaddr --verbose  --base-path=. --export-all ./core.git
+serve-database = !git daemon --reuseaddr --verbose  --base-path=. --export-all ./database.git
+s = status --porcelain
+ss = status --short
+sss = status 
+top = rev-parse --show-toplevel
+
+[diff]
+	tool = opendiff
+[color]
+	diff = always
+	status = auto
+	branch = auto
+[credential]
+	helper = cache
