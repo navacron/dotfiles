@@ -23,4 +23,5 @@
 ;; ---------------------------
 (load "py-config.el")
 (load "sh-config.el")
+(load "lisp-config.el")
 
