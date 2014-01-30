@@ -1,8 +1,8 @@
 
 # 1) Safety
-    alias rm="rm -i"
-    alias mv="mv -i"
-    alias cp="cp -i"
+#    alias rm="rm -i"
+#    alias mv="mv -i"
+#    alias cp="cp -i"
 
 
 # 1.2) Listing, directories, and motion
