@@ -20,7 +20,7 @@
     alias treeacl='tree -A -C -L 2'
 
 # 1.3) Text and editor commands
-    alias em='emacs -nw'     # No X11 windows
+    alias mac='emacs -nw'     # No X11 windows
     alias emacs='emacs -nw'     # No X11 windows
     alias eqq='emacs -nw -Q' # No config and no X11
 

@@ -70,9 +70,12 @@ With a prefix argument, insert a newline above the current line."
     (let ((kill-whole-line t))
       (kill-line n))))
 
+(define-key global-map [(meta k)] 'vi-open-line-above)
 (define-key global-map [(meta o)] 'vi-open-line-below)
-(define-key global-map [(meta p)] 'vi-open-line-below)
 
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 4)
+(setq indent-line-function 'insert-tab)
 
 ;; ---------------------------
 ;; -- Python Mode configuration --
